@@ -1,0 +1,92 @@
+.ipoList {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.ipoItem {
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.ipoItem::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  background: url('../../../../../public/images/common/ico_arrow_02_1.png') no-repeat left top /
+    contain;
+}
+
+.ipoSpan {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.ipoImage {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.ipoName {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ipoText {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.ipoImageSpan {
+  display: inline-block;
+}
+
+.ipoStateImage {
+  display: block;
+  width: auto;
+  height: 18px;
+}
+
+.ipoDescContainer {
+  padding-top: 4px;
+}
+
+.ipoDl {
+  display: flex;
+  align-items: flex-start;
+  font-size: 12px;
+  gap: 6px;
+}
+
+.descTitle {
+  color: #888;
+  line-height: 18px;
+}
+
+.descContents {
+  color: #000;
+  line-height: 18px;
+}

@@ -1,0 +1,44 @@
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 20px;
+}
+
+.imageContainer {
+  width: 48px;
+  min-width: 48px;
+}
+
+.imageSpan {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.titleImage {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.titleText {
+  color: #000000;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.codeText {
+  display: block;
+  color: #969696;
+  font-size: 14px;
+  line-height: 20px;
+}

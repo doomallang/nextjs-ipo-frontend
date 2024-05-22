@@ -1,0 +1,55 @@
+.pointLi {
+  position: relative;
+  padding-left: 1em;
+  color: #999;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.pointLi::before {
+  content: '·';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+.forceTable {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.forceTh {
+  padding: 6px 10px;
+  background-color: #7a7a7a;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+.tbodyTd {
+  padding: 6px 10px;
+  color: black;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.tbodyTdColor {
+  padding: 6px 10px;
+  color: black;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: center;
+  background-color: #f5f5f5;
+}

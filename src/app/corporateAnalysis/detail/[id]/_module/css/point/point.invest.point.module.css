@@ -1,0 +1,38 @@
+.pointWrap {
+  padding-bottom: 10px;
+}
+
+.pointDiv {
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.strongLi {
+  color: black;
+  display: block;
+  position: relative;
+  padding-left: 1em;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.strongLi::before {
+  content: '-';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+.pointP {
+  color: #999999;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 1em;
+}

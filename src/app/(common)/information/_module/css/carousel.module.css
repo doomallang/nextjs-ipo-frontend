@@ -1,0 +1,48 @@
+.imgContainer {
+  background-color: #f6f6f6;
+}
+
+.contentText {
+  padding: 20px 10px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contentTitle {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bolder;
+}
+
+.contentDesc {
+  margin-top: 4px;
+  color: #555;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.guide {
+  justify-content: center;
+  gap: 6px;
+  position: fixed;
+  bottom: 24px;
+  left: 0;
+  width: 100%;
+  font-size: 0;
+  display: flex;
+}
+
+.guideButton {
+  width: 6px;
+  height: 6px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.guideActive {
+  width: 23px;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 3px;
+}

@@ -1,0 +1,164 @@
+.bodyContainer {
+  color: black;
+}
+
+.bodyWrap {
+  padding: 16px 20px 48px;
+}
+
+.titleContainer {
+  color: #000;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: bolder;
+}
+
+.pContainer {
+  margin-top: 12px;
+  color: #7a7a7a;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.imageContainer {
+  margin-top: 12px;
+}
+
+.image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.contentContainer {
+  margin-top: 32px;
+}
+
+.contentWrap {
+  position: relative;
+  margin-top: 16px;
+}
+
+.subTitleContainer {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.titleEm {
+  position: relative;
+}
+
+.titleEm::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #d8e7ff;
+  z-index: 0;
+}
+
+.titleSpan {
+  position: relative;
+}
+
+.subPContainer {
+  margin-top: 12px;
+  color: #7a7a7a;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.subImageContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 72px;
+  height: 72px;
+}
+
+.subImage {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.titleColor {
+  color: #6250ff;
+}
+
+.titleP {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 18px;
+  color: #222222;
+  font-weight: 400;
+}
+
+.contentP {
+  margin-top: 12px;
+  color: #7a7a7a;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.descContainer {
+  padding: 32px 20px 48px;
+  background-color: #f0f2f4;
+}
+
+.descTitle {
+  color: #7a7a7a;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.descP {
+  position: relative;
+  padding-left: 19px;
+  color: #7a7a7a;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 12px;
+}
+
+.descP::before {
+  content: '·';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 8px;
+  color: inherit;
+  font-size: 13px;
+  line-height: inherit;
+  font-weight: bold;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.button {
+  height: 50px;
+  border-radius: 12px;
+  background-color: #222;
+}
+
+.buttonText {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: bold;
+}

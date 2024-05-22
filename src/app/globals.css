@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+:root {
+  --main-color: #009ddf;
+  --main-disibled-color: #859296;
+  --main-bg-color: #ecf0f1;
+  --em-color: #ff5571;
+  --required-color: #ff6060;
+  --border-color: #aeaeae;
+  --line-color: #aeaeae;
+  --btn-color: #212121;
+  --btn-dim-color: #d4d4d4;
+
+  --color-safe: #1ea82c;
+  --color-care: #fcaa33;
+  --color-caution: #fcaa33;
+  --color-warring: #ed1e19;
+  --color-danger: #ed1e19;
+  --color-check: #000;
+}
+
+.swiper {
+  z-index: 0 !important;
+}
+
+.swiper-wrapper {
+  z-index: 0 !important;
+}

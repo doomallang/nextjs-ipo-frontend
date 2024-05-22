@@ -1,0 +1,12 @@
+.titleContainer {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 16px 16px 16px;
+  background-color: #fff;
+}
+
+.title {
+  font-weight: bolder;
+}

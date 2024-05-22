@@ -1,0 +1,51 @@
+.contentContainer {
+  height: 100%;
+}
+
+.contentWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contentMid {
+  flex: 1;
+  background-color: #f6f6f6;
+}
+
+.guideContainer {
+  height: 100%;
+  background-image: linear-gradient(#f6f6f6 50%, #fff 50%);
+}
+
+.guideContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.guideTop {
+  background-color: #f6f6f6;
+}
+
+.guideTopWrap {
+  padding: 10px 20px;
+}
+
+.guideTopText {
+  padding: 10px 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #999;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.guideMid {
+  margin-top: 40px;
+  padding-bottom: 44px;
+}

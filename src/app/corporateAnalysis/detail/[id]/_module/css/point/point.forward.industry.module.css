@@ -1,0 +1,32 @@
+.pointDiv {
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.pointLi {
+  position: relative;
+  padding-left: 1em;
+  color: #999;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.pointLi::before {
+  content: '·';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+.pointImage {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}

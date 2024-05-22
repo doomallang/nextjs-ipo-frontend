@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* @import url(font.css); */
+
+/* CSS Default Values Reference */
+del,
+s,
+strike {
+  text-decoration: line-through;
+}
+ins,
+u {
+  text-decoration: underline;
+}
+
+/* reset */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 삭제된 항목
+center,ruby,
+*/
+
+html,
+body,
+div,
+span,
+p,
+a,
+applet,
+object,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+fieldset,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+iframe,
+figure,
+img,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+section,
+summary,
+time,
+mark,
+blockquote,
+hgroup,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+pre,
+button,
+input,
+textarea,
+select,
+label,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small,
+sub,
+sup {
+  font-size: 1em;
+}
+
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+th {
+  font-weight: bold;
+}
+
+address,
+cite,
+dfn,
+em,
+i,
+var {
+  font-style: normal;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+svg,
+canvas {
+  display: block;
+}
+
+menu,
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+hr {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+video,
+audio,
+object,
+embed,
+iframe {
+  max-width: 100%;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+legend,
+caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+pre {
+  word-break: break-all;
+  white-space: pre-line;
+}
+
+:focus {
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+html {
+  overflow-y: auto;
+}
+body {
+  position: relative;
+}
+
+/* reset end */
+
+/* form */
+label {
+  display: inline-block;
+}
+
+input,
+textarea,
+button,
+select {
+  border-radius: 0;
+  font-size: 1em;
+  /*line-height:1;*/
+  /* font-family:Sans-serif; */
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+}
+
+input::-webkit-input-placeholder {
+  padding-top: 0.3rem;
+  color: #999999;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  margin: 0;
+  border: 1px solid #999;
+}
+
+input[type='number'],
+input[type='tel'],
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='search'],
+input[type='phone'],
+input[type='date'],
+input[type='month'],
+select,
+textarea,
+button {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  max-width: 100%;
+  /* line-height: inherit; 특정 상황에서 버그 */
+}
+
+textarea {
+  display: block;
+  vertical-align: top;
+  resize: none;
+  width: 100%;
+}
+
+body {
+  background-color: #fff;
+  /* font-family: '맑은 고딕', 'malgun gothic', 'AppleGothicNeoSD', 'Apple SD 산돌고딕 Neo', 'Microsoft NeoGothic',  'Droid sans', sans-serif; */
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans KR', 'Helvetica Neue',
+    'Apple SD Gothic Neo', Arial, sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: -0.04em;
+  color: #000;
+  font-weight: normal;
+  -webkit-text-size-adjust: none;
+}
+
+input[type='radio'] {
+  border-radius: 100%;
+}
+
+button.disabled,
+button.false,
+button[disabled] {
+  background: #a7a7a7 !important;
+  border-color: #a7a7a7 !important;
+  color: #fff !important;
+}
+
+input::-webkit-input-placeholder {
+  line-height: normal;
+}

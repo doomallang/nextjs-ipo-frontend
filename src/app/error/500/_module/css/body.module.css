@@ -1,0 +1,71 @@
+.bodyContainer {
+  height: 90vh;
+}
+
+.bodyWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.errorContainer {
+  padding: 20px 18px;
+  text-align: center;
+}
+
+.imageContainer {
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  vertical-align: top;
+}
+
+.image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.titleContainer {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.pContainer {
+  margin-top: 8px;
+  color: #999999;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.button {
+  display: inline-block;
+  width: 93px;
+  max-width: none;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background: #ededed url(../../../../../../public/images/common/btn_refresh.png) no-repeat 18px
+    center / 14px 14px;
+  line-height: 30px;
+}
+
+.buttonText {
+  display: block;
+  padding: 0 12px 0 30px;
+  font-size: 12px;
+  line-height: 1em;
+  color: #000;
+}

@@ -1,0 +1,86 @@
+.contentsContainer {
+}
+
+.contentsItem {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.contentsItem::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  background: url(../../../../../public/images/common/ico_arrow_02_1.png) no-repeat left top /
+    contain;
+}
+
+.contentsImageSpan {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.contentsImage {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.contentsText {
+  flex: 1;
+}
+
+.contentsTitleDiv {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.contentsTitleSpan1 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.contentsTitleSpan2 {
+  display: inline-block;
+  padding-bottom: 2px;
+  color: #969696;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.contentsInfoDiv {
+  padding-top: 4px;
+}
+
+.contentsInfoDl {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 6px;
+}
+
+.contentsInfoDt {
+  color: #888;
+  line-height: 18px;
+}
+
+.contentsInfoDd {
+  color: #000;
+  line-height: 18px;
+  font-weight: normal;
+}

@@ -1,0 +1,31 @@
+.navContainer {
+}
+
+.navUl {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 14px;
+  border-bottom: 0.5px solid #d8d8d8;
+}
+
+.navButtonActive {
+  position: relative;
+  padding: 0 6px;
+  border-bottom: 2px solid black;
+}
+
+.navButton {
+  position: relative;
+  padding: 0 6px;
+}
+
+.navSpan {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  padding: 4px 0 6px;
+  color: #222;
+  line-height: 24px;
+  font-weight: 500;
+}

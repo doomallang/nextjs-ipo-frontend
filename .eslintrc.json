@@ -1,0 +1,45 @@
+{
+  "env": {
+    // 전역객체를 eslint가 인식하는 구간
+    "browser": true, // document나 window 인식하게 함
+    "es2021": true
+  },
+  "ignorePatterns": ["node_modules/"], // eslint가 미적용될 폴더나 파일 명시
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "prettier",
+    "next/core-web-vitals"
+  ],
+  "plugins": ["@typescript-eslint", "prettier"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      },
+      "typescript": {
+        "project": "."
+      }
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }], // 경고표시, 파일 확장자를 .ts, .tsx 모두 허용
+    "no-useless-catch": "off", // 불필요한 catch 못쓰게 하는 기능 끔
+    "no-unused-vars": "warn", // 사용하지 않는 변수에 대해 error 처리
+    "no-console": "off", // 콘솔로그를 사용하수 있게 꺼놓겠다.
+    "react/react-in-jsx-scope": "off" // react import error 처리
+  }
+}
